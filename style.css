@@ -49,13 +49,11 @@ body p {
 }
 
 body section {
-    display: inline;
     text-align: center;
     vertical-align: middle;
 }
 
 body section p {
-    display: inline-block;
     text-align: center;
     vertical-align: middle;
 }
