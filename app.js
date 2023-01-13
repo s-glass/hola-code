@@ -46,4 +46,15 @@
     console.log(catsName);
     }
 
+    function catsQ3(){
+        let catsNumber = prompt("How many cats is too many?");
+        while (catsNumber < 4){
+            catsNumber = prompt("How many cats is too many?");
+        }
     
+        for (let i = 0; i < catsNumber; i++){
+            document.write('<img src="catloop-small.jpg"/>')
+        }
+    }
+
+
